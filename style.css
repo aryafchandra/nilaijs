@@ -1,0 +1,14 @@
+body {  
+    font-family: "Commissioner", sans-serif;
+  }
+
+h1,p {
+    
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+    border: 2px solid;
+    margin: 30px;
+}
