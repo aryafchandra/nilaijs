@@ -1,2 +1,4 @@
-let hai = "";
-if (hai.length == 0) console.log("HAI ALL");
+let getValue = () =>{
+    let detail = document.getElementById("input-nilai").value;
+    console.log(detail);
+}

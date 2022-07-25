@@ -1,14 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
 body {  
-    font-family: "Commissioner", sans-serif;
+    font-family: "Rubik", sans-serif;
   }
 
 h1,p {
-    
     text-align: center;
 }
 
-p{
+header{
     padding: 10px;
     border: 2px solid;
     margin: 30px;
 }
+
+.message{  
+    text-align: center;
+}
+
+textarea[name="detail"] {
+    width: 30%;
+    height: 300px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
