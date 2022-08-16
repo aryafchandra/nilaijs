@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="score.js"></script>
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Final Score Calculator For Universitas Indonesia Student</title>
 </head>
 <body>
+
     <header>
         <h1>SIAK Score Calculator</h1>
     </header>
@@ -19,13 +19,11 @@
         <p>Hai all, selamat datang di score calculator.</p>
         <p>Disini kalian bisa <i>copy paste</i> nilai matkul dari siak!</p>
         <p>nanti diitungin deh udah dapet berapa ehheheheh. Thanks for using this everyone! Semoga nilainya sesuai ekspektasi kalian ya!</p>
-    </main>
-
+    
     <div class="message" id="message">
     
         <div class="input-nilai" id="input-nilai">
-            <form action ="" method="POST">
-                <textarea name="detail" 
+                <textarea name="detail" id="detail" 
                 placeholder
 ="Assignment 1	20%	91.00
 Assignment 2	20%	80.00
@@ -34,10 +32,11 @@ Final-exam	35% 80.00
 Participation	5%	89.00"></textarea><br>
 
                 <button type="submit" onclick="getValue()">ITUNG NGAB</button>
-              </form>
         </div>
-
+        <p id="test"></p>
     </div>
-    
+</main>
+
+    <script src="score.js"></script>
 </body>
 </html>
